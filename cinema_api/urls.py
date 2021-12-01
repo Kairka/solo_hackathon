@@ -28,7 +28,7 @@ schema_view = get_schema_view(
         description="Test description",
         terms_of_service="https://www.ourapp.com/policies/terms/",
         contact=openapi.Contact(email="kairka20i01@gmail.com"),
-        license=openapi.License(name="Test License"),
+        license=openapi.License(name="BSD License"),
     ),
     public=True,
     permission_classes=(permissions.AllowAny,),
